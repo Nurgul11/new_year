@@ -1,0 +1,130 @@
+body{
+	background-color: #1A5B35;
+	margin:0 ;
+}
+h1{
+	margin: 0;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text{
+	width: 662px;
+	height: 464px;
+	text-align: center;
+	
+}
+
+.text h1{
+	font-family: 'Caveat';
+	font-weight: 400;
+	font-size: 72px;
+	line-height: 115px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	background: linear-gradient(180deg, #CEB076 0%, #D6BD84 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	margin-bottom: -9px;
+	margin-left: 125px;
+
+}
+
+.text p{
+	font-family: 'Righteous';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.h1{
+	position: absolute;
+	right: 567px;
+}
+.rose{
+	position: absolute;
+	bottom: 395px;
+	left: 0px;
+}
+
+.mega{
+	position: absolute;
+	left: 47%;
+	bottom: 11px;
+	border-radius: 0px;
+}
+
+.music{
+	position: absolute;
+	left: 14px;
+	bottom: 75px;
+}
+
+.fin{
+	position: absolute;
+	bottom: -25px;
+	left: 0px;
+	
+}
+.flower{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.svet{
+	position: absolute;
+	bottom: 110px;
+	left: 772px;
+}
+
+
+@media screen and (max-width:575.98px) {
+	body{
+ 	background-color: red;
+ 	height: 844px;
+}
+
+/*.text p{
+	font-family: 'Righteous';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	/*display: flex;
+	align-items: center;*/
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	right: 30%;
+*/
+/*
+ h1{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ p{
+ 	text-align: center;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+*/
+} 
+ 
+ 
+
+
