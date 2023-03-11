@@ -1,0 +1,132 @@
+body{
+	background-color: #1A5B35;
+	margin:0 ;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	margin: 0;
+}
+
+.hidden{
+	display: none;
+}
+
+
+.text{
+	width: 662px;
+	height: 464px;
+	text-align: center;
+	
+}
+
+.text h1{
+	font-family: 'Caveat';
+	font-weight: 400;
+	font-size: 72px;
+	line-height: 115px;
+	color: white;
+}
+
+.text p{
+	font-family: 'Righteous';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+.subTetx{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.rose{
+	position: absolute;
+	top: 0;
+	left: 0px;
+}
+
+
+.music{
+	position: absolute;
+	left: 14px;
+	bottom: 75px;
+}
+
+.fin{
+	position: absolute;
+	bottom: -25px;
+	left: 0px;
+	
+}
+.flower{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.svet{
+	/*position: absolute;
+	bottom: 110px;
+	left: 772px;*/
+}
+
+
+@media screen and (max-width:575px) {
+	body{
+ 		height: auto;
+}
+
+.flower{
+	visibility: hidden;
+}
+
+.fin{
+	visibility: hidden;
+
+}
+
+.container{
+	position: relative;
+	text-align: center;
+}
+
+.text{
+	width:376px ;
+	padding:177px 16px;
+}
+
+.text p{
+	
+}
+
+.music{
+	position: absolute;
+	top: 60px;
+	left: 80%;
+}
+
+.hidden{
+	font-family: 'Gilroy';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 11px;
+	color: #FFFFFF;
+	position: absolute;
+	top: 6px;
+	left: 77%;
+	display: block;
+
+}
+
+
+} 
+ 
+ 
+
+
